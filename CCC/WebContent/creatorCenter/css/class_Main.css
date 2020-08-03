@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@font-face{
+	font-family: FredokaOne;
+	src: url("../font/FredokaOne-Regular.ttf");
+}
+@font-face{
+	font-family: Jua;
+	src: url("../font/Jua-Regular.ttf");
+}
+body{
+	margin: 0;
+	width: 100%;
+	height:100%;
+	background-color: #f0f4f5;
+	overflow-x: hidden;
+	font-family: FredokaOne, Jua;
+}
+form{
+	width: 100%;
+	height: 100%;
+}
+button{
+	font-size: 24px;
+}
+ul{
+	align-items: center;
+}
+.container{
+	width:100%;	
+	height: 98%;
+	overflow-x: hidden;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	height: 10%;
+	align-items: center;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+}
+.navbar div{
+	padding: 10px 20px;
+}
+html{
+	height: 100%;
+}
+.menu{
+	width:23%;
+	height:88%;
+	float: left;
+	padding: 0;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.contents{
+	width: 75%;
+	height:88%;
+	display: flex;
+	flex-direction: column;
+	overflow:hidden;
+}
+.navbar_logo span{
+	padding: 5px 10px;
+}
+.ccc_logo{
+	background-color: black;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+.persent{
+	color: rgb(253, 126, 20);
+}
+.menu_ul li{
+	width:200px;
+	padding: 20px 30px;
+	list-style: none;
+	cursor: pointer;
+	font-size: 20px;
+}
+.menu_ul li:hover {
+	background-color: #d49466;
+	border-radius: 4px;
+}
+.form_contents{
+	width: 100%;
+	height: 88%;
+}
+.space{
+	margin-top: 30px;
+}
+.form_footer{
+	width: 100%;
+	height: 10%;
+	align-items: center;
+}
+.numIcon{
+	width: 24px;
+	padding: 0px 4px;
+}
+#warning{
+	color: #ff2222;
+}

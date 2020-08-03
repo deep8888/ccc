@@ -1,0 +1,108 @@
+@charset "EUC-KR";
+body{
+	margin: 0;
+}
+.container{
+	width: 98%;
+	align-items:center;
+	margin: 30px 150px;
+}
+.header{
+	width:600px;
+	align-items: center;
+	display:flex;
+	margin-bottom: 20px;
+}
+.header span.h2{
+	padding: 15px 0px 10px 200px;
+}
+.class_box{
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+}
+
+.newClass{
+	width:100%;
+	display: flex;
+	border-radius: 10px;
+	box-shadow:3px 3px 3px 3px #999;
+	padding: 24px;
+	margin-bottom: 16px;
+}
+.class_tag_Div_Img{
+	width: 240px;
+	height: 190px;
+	margin-right: 24px;
+	border-radius: 3px;
+	background: #cbe4e4;
+}
+.class_tag_Div_content{
+	display: flex;
+	flex-direction: column;
+}
+.class_tag_Div_content_header{
+	display: flex;
+	width:350px;
+	position: relative;
+}
+.class_tag_Div_Img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.class_tag_Div_content_header span{
+	font-size: 24px;
+	margin-right: 10px;
+}
+.class_tag_Div_content_header i{
+	position: relative;
+	font-size: 22px;
+	cursor: pointer;
+}
+.class_tag_span_Sttus{
+	margin: 10px 0px;
+	color: #d49466;
+	font-size: 20px;
+}
+.class_tag_btn{
+	background-color: rgb(62,64,66);
+	color:rgb(237, 239, 240);
+	width:100%;
+	font-weight: 500;
+	font-size: 14px;
+	border-radius: 3px;
+	padding: 5px 16px;
+	margin: 8px 0px;
+}
+.class_tag_Div_DelImg{
+	position: absolute;
+	right: 10px;
+}
+/* .class_tag_Div_DeleteBox_1{
+	display: none;
+	overflow: visible;
+}
+.class_tag_Div_DeleteBox_1:active{
+	display: inline;
+} */
+.class_tag_Div_DeleteBox_2{
+	position: absolute;
+	width: 120px;
+}
+.class_tag_Span_DeleteBox_1{
+	position:relative;
+	width: 80px;
+	background-color: rgb(255,255,255);
+	box-shadow:2px 2px 2px 2px #999;
+	border-radius: 4px;
+}
+.btn_classDelete{
+	background-color: transparent;
+	font-size: 18px;
+	color: rgb(243, 51, 64);
+	margin: 0;
+	outline: none;
+	padding: 1px 16px;
+	border-style: none;
+}

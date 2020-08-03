@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.container{
+	align-items: center;
+	padding: 20px 50px;
+}
+table{
+	border-width: 1px;
+	border-color: #dedede;
+	border-style: solid;
+	border-collapse: collapse;
+}
+tr{
+	height: 55px;
+}
+td{
+	font-size: 20px;
+	border: 1px solid #dedede;
+}
+.first_column{
+	width: 100px;
+	color:orange;
+}
+.second_column{
+	width: 800px;
+	padding-left: 10px;
+}
